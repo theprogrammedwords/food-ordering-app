@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/theprogrammedwords/food-ordering-app/issues"
   },
-  "homepage": "https://github.com/theprogrammedwords/food-ordering-app#readme"
+  "homepage": "https://github.com/theprogrammedwords/food-ordering-app#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
 }
