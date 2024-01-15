@@ -43,3 +43,4 @@ yarn-error.log
 # Dependency lock files
 yarn.lock
 package-lock.json
+.parcel-cache
