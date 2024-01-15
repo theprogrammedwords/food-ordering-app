@@ -1,0 +1,22 @@
+{
+  "name": "food-ordering-app",
+  "version": "1.0.0",
+  "description": "\"This is food ordering app by Ashish Prasad\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theprogrammedwords/food-ordering-app.git"
+  },
+  "keywords": [
+    "food"
+  ],
+  "author": "Ashish Prasad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theprogrammedwords/food-ordering-app/issues"
+  },
+  "homepage": "https://github.com/theprogrammedwords/food-ordering-app#readme"
+}
