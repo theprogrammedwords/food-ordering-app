@@ -24,10 +24,25 @@ const Header = () => {
     </div>
   );
 };
+
+const RestaurentCard = () => {
+  return <div className="res-card"></div>;
+};
+
+const Body = () => {
+  return (
+    <div className="body">
+      <div className="search"></div>
+      <div className="res-container">Restaurent List</div>
+    </div>
+  );
+};
+
 const AppLayout = () => {
   return (
     <div className="app">
       <Header />
+      <Body />
     </div>
   );
 };
