@@ -25,15 +25,34 @@ const Header = () => {
   );
 };
 
-const RestaurentCard = () => {
-  return <div className="res-card"></div>;
+const RestaurentCard = ({ resName, speciality, rating, duration }) => {
+  return (
+    <div className="res-card">
+      <img
+        className="res-logo"
+        src={"https://meghanafoods.co.in/assets/img/banner/banner-5.jpg"}
+      />
+      <h3>{resName}</h3>
+      <div>{speciality}</div>
+      <div>{rating}</div>
+      <div>{duration}</div>
+    </div>
+  );
 };
 
 const Body = () => {
   return (
     <div className="body">
-      <div className="search"></div>
-      <div className="res-container">Restaurent List</div>
+      <div className="search">Search</div>
+
+      <div className="res-container">
+        <RestaurentCard
+          resName="Meghna's Food"
+          speciality="Mughlai"
+          rating="2.9"
+          duration="20 mins"
+        />
+      </div>
     </div>
   );
 };
